@@ -1,0 +1,5 @@
+,experiment,description,smape,mae,training_time_mins,requires_gpu,epochs
+1,DeBERTa-v3-base (Ours),"Mean pooling, LayerNorm, v2 data augmentation, encoder_lr=3e-5",45.12,,74.0,True,5.0
+2,DistilBERT + MLP Head,"distilbert-base-uncased fine-tuned, mean pooling, LayerNorm, 5 epochs",46.87,,45.0,True,5.0
+3,XGBoost + TF-IDF,"TF-IDF (50k features, bigrams) + XGBoost (500 trees)",54.21,12.1,19.9,False,
+4,SentenceTransformer + XGBoost,"all-MiniLM-L6-v2 (frozen, 384-dim) + XGBoost â€” generic embeddings lose domain-specific keyword signals vs TF-IDF",58.8,13.77,15.0,False,

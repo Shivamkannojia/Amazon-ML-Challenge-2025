@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers>=4.40.0
+datasets
+pandas
+numpy
+scikit-learn
+xgboost
+optuna
+sentence-transformers
+huggingface-hub
+tqdm
+matplotlib
+seaborn
+jupyter
+ipykernel
+accelerate

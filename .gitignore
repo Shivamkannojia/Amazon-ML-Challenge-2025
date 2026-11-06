@@ -1,0 +1,50 @@
+# Virtual environment
+venv/
+amzon_ml/
+.env
+
+# Data files — too large, competition data
+data/
+
+# Model checkpoints — too large for git
+results/checkpoints/
+
+# Intermediate experiment results
+results/exp01_result.json
+results/exp02_result.json
+results/exp03_result.json
+results/training_history.json
+results/submission.csv
+
+# Keep these — they go in README
+# results/training_curves.png
+# results/model_comparison.png
+# results/model_comparison.csv
+
+# Temp scripts
+check_train.py
+
+# Personal learning notes
+learning_till_now.md
+
+# regenrate curves
+regenerate_curves.py
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+*.cache/
